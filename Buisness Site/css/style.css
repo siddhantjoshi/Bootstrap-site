@@ -65,7 +65,7 @@ h1::after{
 }
 /*--------About us--------*/
 #about{
-	padding: 50px 0 50px 0 ;
+	padding: 110px 0 50px 0 ;
 	color: #555555;
 }
 #about .btn{
@@ -92,7 +92,7 @@ h1::after{
 	background-position: center;
 	color: #EFEFEF!important;
 	background-attachment: fixed;
-	padding: 50px 0px 50px 0px;
+	padding: 110px 0px 50px 0px;
 }
 #services h1{
 	text-align: center;
@@ -135,7 +135,7 @@ h1::after{
 }
 /*------Team Section ----*/
 #team {
-	padding: 50px 0px ;
+	padding: 110px 0px ;
 	color: #555555;
 }
 .profile-pic{
@@ -209,7 +209,7 @@ h1::after{
 }
 /*------Price Paln ------*/
 #price{
-	padding: 40px 0px;
+	padding: 110px 0px;
 	background-color: #EFEFEF;
 }
 .single-price{
@@ -302,7 +302,7 @@ a{
 
 /*------Testimonial-------*/
 #testimonial{
-	padding: 50px 0px;
+	padding: 110px 0px;
 }
 #testimonial .row{
 	margin-top: 30px;
@@ -364,6 +364,42 @@ blockquote::before{
 	transition: 0.5s ease-in-out;
 	cursor: pointer;
 }
+
+/* --------- Contact us -----*/
+#contact{
+	background: #EFEFEF;
+	padding:40px 0px;
+	color: #777777;
+	padding-top: 110px 
+}
+.contact-form{
+	padding: 15px;
+}
+.form-control{
+	border-radius: 10 !important;
+	border: none!important ;
+}
+::placeholder{
+	color: #999999!important;
+}
+
+.contact-info .fa{
+	margin: 10px;
+	color: #007BFF;
+	font-weight: bold;
+}
+
+/*---------footer--------*/
+#footer{
+	background-color: #333333;
+	padding: 12px;
+	color: #FFFFFF;
+}
+.fa-heart-o{
+	margin: 5px;
+	color: red;
+}
+
 @media only screen and (max-width: 600px){
 	.carousel-caption{
 		top: 70%;
@@ -379,7 +415,7 @@ blockquote::before{
 	position: absolute;
 	left: calc(100% - 61%);
 	border: 10px solid #FFFFFF;
-}
+	}
 
 }
 @media only screen and (min-width: 600px){
@@ -407,4 +443,10 @@ blockquote::before{
 		color: #FFFFFF;
 		font-size: 50px;
 	}
+}
+
+.follow {
+	background: #fff;
+	padding: 10px;
+	margin: 15px;
 }

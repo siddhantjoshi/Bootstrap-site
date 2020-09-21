@@ -15,7 +15,26 @@
 		
 		<!-- font awsome CDN  -->
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" >
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	
+		<script>
+			$(document).ready(function(){
+			  $("a").on('click', function(event) {
+				  if (this.hash !== "") {
+				  	event.preventDefault();
+				  	var hash = this.hash;
+				  	$('html, body').animate({
+						scrollTop: $(hash).offset().top + 5,
+	
+					}, 1000, function(){
+						window.location.hash = hash;
+				  });
+				} // End if $('html, body').animate({scrollTop: $('.contact').offset().top + 100}, 1000);
+			  });
+			});
+		</script>
+
 	</head>
 
 	<body>
@@ -29,25 +48,27 @@
 				<div class="collapse navbar-collapse" id="navbarNav">
 					<ul class="navbar-nav ml-auto">
 				  		<li class="nav-item active">
-							<a class="nav-link" href="#">Home</a>
+							<a class="nav-link" href="#slider">Home</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#">ABOT US</a>
+							<a class="nav-link" href="#about">ABOUT US</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#">SERVICES</a>
-						</li>
-						
-						<li class="nav-item">
-							<a class="nav-link" href="#">TESTIMONIALS</a>
+							<a class="nav-link" href="#services">SERVICES</a>
 						</li>
 						
 						<li class="nav-item">
-							<a class="nav-link" href="#">OUR TEAM</a>
+							<a class="nav-link" href="#team">OUR TEAM</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#price">Price Plan</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#testimonial">TESTIMONIALS</a>
 						</li>
 						
 						<li class="nav-item">
-							<a class="nav-link" href="#">CONTACT US</a>
+							<a class="nav-link" href="#contact">CONTACT US</a>
 						</li>
 					</ul>
 				</div>
@@ -368,6 +389,53 @@
 			</div>
 		</section>
 		<!--Contact Us-->
+		<section id="contact">
+			<div class="container">
+				<h1>Get in Touch with us</h1>
+				<div class="row">
+					<div class="col-md-6">
+						<form class="contact-form">
+							<div class="form-group">
+								<input type="text" name="name" autocomplete="off" class="form-control" placeholder="Your name">
+							</div>
+							<div class="form-group">
+								<input type="number" name="phone" autocomplete="off" class="form-control" placeholder="Your Phone no.">
+							</div>
+							<div class="form-group">
+								<input type="email" name="email" class="form-control" autocomplete="off" placeholder="Your email">
+							</div>
+							<div class="form-group">
+								<textarea type="text" name="message" draggable="false" rows="4" class="form-control" placeholder="Message"></textarea>
+							</div>
+							<button type="submit" class="btn btn-primary" >SEND MESSAGE</button>
+						</form> 
+					</div>
+					<div class="col-md-6 contact-info">
+						<div class="follow"><b>Address</b>
+							<i class="fa fa-map-o"></i> rdctfvd xajhbxsa xasyb xasuyxa xusax jnx
+						</div>
+						<div class="follow"><b>Phone</b>
+							<i class="fa fa-phone"></i> 879741736
+						</div>
+						<div class="follow"><b>Email</b>
+							<i class="fa fa-envelope"></i> MukadarKasikandar@gmail.com
+						</div>
+						<div class="follow"><label><b>Folow Us</b></label>
+							<a href="#"><i class="fa fa-facebook-square"></i></a>
+							<a href="#"><i class="fa fa-instagram"></i></a>
+							<a href="#"><i class="fa fa-twitter-square"></i></a>
+							<a href="#"><i class="fa fa-google-plus-square"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>	
+		<section id="footer">
+			<div class="container text-center">
+				<p>Made with <i class="fa fa-heart-o"></i> By Mukadarkasikandar </p>
+			</div>
+		</section>
+		<!--smooth scrolling-->
 		
 	</body>
 </html>
