@@ -1,0 +1,77 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{margin: 0; padding: 0;font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif"}
+
+#header{width: 100%; height: 60px; background: #3f5267}
+#logo{width: 20%; height: 60px; float: left }
+#logo h2{text-align: center; line-height: 60px }
+#logo h2 a{text-decoration: none;color: #74889E;text-shadow: 3px 3px 3px #000}
+
+#title{width: 60%; height: 60px; float: left}
+#title h2{color: #fff;text-align: center;text-shadow: 3px 3px 3px #000; line-height: 60px}
+
+#link{width: 20%; height: 60px;float: left}
+#link h3 {text-align: center;line-height: 60px}
+#link h3 a{text-decoration: none;color: #fff; display: block}
+#link h3:hover{background: #74889e}
+
+#bodyleft{width: 20%;height: 680px; background: #3f5267; float: left; overflow-y: auto}
+#bodyleft h3{margin-bottom: 5%;margin-top: 5%; line-height: 35px;font-weight: normal;color: #fff;text-align: center;font-size: 18px;background: #74889e; height: 35px}
+#bodyleft ul{list-style-type: none}
+
+#bodyleft ul li:hover{background: #fff}
+#bodyleft ul li:hover a{color: #3F5267; padding-left: 5%;box-sizing: border-box;text-shadow:none }
+
+#bodyleft ul li{width: 100%; height: 30px; line-height: 35px; padding-left: 5%; box-sizing: border-box;transition: all 0.3s}
+#bodyleft ul li a {display: block;transition: all 0.3s; text-decoration: none; color: #fff; font-size: 13px; text-shadow: 2px 2px 2px #000}
+
+#bodyleft ul li i{width: 8%;box-sizing: border-box }
+#bodyleft ul li i a {display: block;transition: all 0.3s; text-decoration: none; color: #fff; font-size: 13px; text-shadow: 2px 2px 2px #000}
+
+
+#bodyright{width: 80%;height: 680px; background: #fff; float: left; overflow-y: auto}
+#bodyright h3{margin-bottom: 2%; line-height: 35px;font-weight: normal;color: #fff;text-align: center;font-size: 15px;background: #74889e; height: 35px}
+
+#add{width: 100%; padding: 2%;box-sizing: border-box}
+#add details{ width: 60%; margin: auto}
+#add details summary{cursor: pointer; width: 100%; height: 40px; color: #3F5267; line-height: 40px; border: 2px solid #3f5267; font-size: 14px; outline: none; text-align: center}
+
+#add details form{ background: #74889E; padding: 2%; box-sizing: border-box}
+#add details form input {width :100%; margin-bottom: 2%;font-size: 12px; height: 40px; outline: none; padding-left: 5%; box-sizing: border-box;}
+#add details form select {width :100%; margin-bottom: 2%;font-size: 12px; height: 40px; outline: none; padding-left: 5%; box-sizing: border-box;}
+
+#add details form textarea {width :100%; margin-bottom: 2%;font-size: 12px; height: 100px; outline: none; padding: 2% 2% 2% 5%; box-sizing: border-box;}
+
+#add details form button {width:auto; padding: 1%; height: 35px; font-size: 14px; background: none; outline: none; border: 1px solid #3f5267;color: #FFFFFF; border-color: #FFFFFF }
+#add details form button:hover{cursor: pointer;background: #FFFFFF;color:#3F5267 }
+
+#add table{ width: 80%; margin: auto; margin-top: 2%; border: 1px solid #74889e}
+#add table tr th{height:  35px;background: #74889E; color: #FFFFFF;text-align: left; font-size: 18px ;padding-left: 2%}
+#add table tr td{height: 40px;padding-left: 2%;box-sizing: border-box;font-size: 15px}
+#add table tr td i{font-size: 14px;margin-right: 3%}
+
+#edit_form{width: 80%;margin: auto; padding: 2%;box-sizing: border-box}
+#edit_form input {width :100%; margin-bottom: 2%;font-size: 12px; height: 40px; outline: none; padding-left: 5%; box-sizing: border-box;}
+#edit_form select {width :100%; margin-bottom: 2%;font-size: 12px; height: 40px; outline: none; padding-left: 5%; box-sizing: border-box;}
+#edit_form button {width:20%; height: 35px; font-size: 14px; background: none; outline: none; border: 1px solid #3f5267;color: #3F5267; border-color: #3f5267 }
+#edit_form button:hover{cursor: pointer;background: #3F5267;color:#FFFFFF }
+
+#con{ width: 100%}
+#con form table{border: none; width: 80%; padding: 5%;box-sizing: border-box; margin:  auto;}
+#con form table tr td{width: 50%; height: 35px;font-size: 13px}
+#con form table td input{border: 1px solid #3f5267; border-radius: 3px; width: 100%; height: 25px;outline: none; padding-left: 2%}
+#con form button{width: 20%;height: 35px;border: 1px solid #3F5267;background: none;outline: none;cursor: pointer}
+#con form button:hover{background: #3f5267;color: #FFFFFF}
+
+#about{width: 90%;margin: auto;padding: 2%;box-sizing: border-box;}
+#about textarea{ width: 100%;height: 150px;outline: none; padding: 2%;box-sizing: border-box}
+#about button{width: 20%;height: 35px;border: 1px solid #3F5267;background: none;outline: none;cursor: pointer}
+#about button:hover{background: #3f5267;color: #FFFFFF}
+
+
+
+
+
+
+
