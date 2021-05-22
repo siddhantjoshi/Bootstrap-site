@@ -1,37 +1,52 @@
-## Welcome to GitHub Pages
+### CRUD Website
+#### CURD is an acronym formed as ' C-Create, R-Read, D-delete '.<br> Resently i learned web technologies like PHP, HTML, JavaScript thus to show my skills i createdd this spplication.
 
-You can use the [editor on GitHub](https://github.com/siddhantjoshi/Bootstrap-site/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Things I learned
 
 ```markdown
-Syntax highlighted code block
+1. Bootstrap
+>Bootstrap is free and open source CSS framework help tocreate respnsive website
+>We just need to attcah its CDN or import file into our project and used pre-defined class of it
+>It reduces development time also make website very beautiful
 
-# Header 1
-## Header 2
-### Header 3
+2. PHP 
+>PHP: Hypertext Processor is a open source scripting launguage use to create dynamic webpages
+>It helps to connet to data base
 
-- Bulleted
-- List
+3. JavaScript
+>JavaScript give motion to a website.
+>Using javaScript i was able to create 'GoToID' and 'GoToTop' Button
 
-1. Numbered
-2. List
+4. HTML
+>Hyper Text Markup Language is use frodocumnet esigning and to display those documnet on web browser
 
-**Bold** and _Italic_ and `Code` text
+4. MySQLi
+>It help to acess MySQL dataBase, also 'i' incdicates as Improve driver i have used MySQli as it help to prevent SQL Injection 
 
-[Link](url) and ![Image](src)
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+# Sites
 
-### Jekyll Themes
+| Sr.no  | Page Name | Use |
+| ------ |:----------------------------------------------------------------------------------------------------:| -----------------------------------:|
+| 1 | [Buisness Site](https://github.com/siddhantjoshi/Bootstrap-site/tree/master/Buisness%20Site) | Show case Bisness |
+| 2 | [Ecommerce Site](https://github.com/siddhantjoshi/Bootstrap-site/tree/master/Ecommerce) | Online Ecommerce site Like Amazon |
+| 3 | [E learning Site](https://github.com/siddhantjoshi/Bootstrap-site/tree/master/Ecommerce) | Online Elearning site Like Udemy |
+| 4 | [Application Launching Site](https://github.com/siddhantjoshi/Bootstrap-site/tree/master/Tin%20Dog) | Online Elearning site Like Udemy |
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/siddhantjoshi/Bootstrap-site/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+# Imags 
+![alt text](https://github.com/siddhantjoshi/ Link  "Caption")<br>
+![alt text](https://github.com/siddhantjoshi/ Link  "Caption")<br>
 
-### Support or Contact
+# Extra Data
+>- [x] Had Fun 
+>- [x] Learn New Things
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+# Reference 
+-[Difference Between MySQLi and MySQL](https://www.c-sharpcorner.com/interview-question/difference-between-mysql-and-mysqli)<br>
+-[SQL injection ](https://www.w3schools.com/sql/sql_injection.asp)<br>
+-[HTML](https://www.w3schools.com/html/default.asp)<br>
+-[CSS](https://www.w3schools.com/css/default.asp)<br>
+-[Bootstrap](https://getbootstrap.com/docs/4.0/getting-started/introduction/)<br>
+-[PHP](https://www.w3schools.com/js/default.asp)<br>
+-[JavaScript](https://www.w3schools.com/js/default.asp)<br>
